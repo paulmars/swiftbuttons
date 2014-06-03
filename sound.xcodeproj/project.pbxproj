@@ -12,6 +12,7 @@
 		DA3642FD193D585B000A60D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3642FB193D585B000A60D0 /* Main.storyboard */; };
 		DA3642FF193D585B000A60D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3642FE193D585B000A60D0 /* Images.xcassets */; };
 		DA36430B193D585B000A60D0 /* soundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36430A193D585B000A60D0 /* soundTests.swift */; };
+		DA364315193D59A0000A60D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA364314193D59A0000A60D0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		DA364304193D585B000A60D0 /* soundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA364309193D585B000A60D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA36430A193D585B000A60D0 /* soundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundTests.swift; sourceTree = "<group>"; };
+		DA364314193D59A0000A60D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA364315193D59A0000A60D0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		DA3642E9193D585B000A60D0 = {
 			isa = PBXGroup;
 			children = (
+				DA364314193D59A0000A60D0 /* AVFoundation.framework */,
 				DA3642F4193D585B000A60D0 /* sound */,
 				DA364307193D585B000A60D0 /* soundTests */,
 				DA3642F3193D585B000A60D0 /* Products */,
